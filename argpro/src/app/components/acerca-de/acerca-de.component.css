@@ -2,7 +2,8 @@
     padding:50px;
 }
 div{
-    background-color:#ecaffc;           
+    background-color:#ecaffc; 
+    color:#4556af          
 }
 /*etiqueta nombre*/
 #nombre{
