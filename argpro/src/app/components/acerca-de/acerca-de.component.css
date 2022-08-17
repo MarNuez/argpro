@@ -2,13 +2,13 @@
     padding:50px;
 }
 div{
-    background-color:#ecaffc; 
-    color:#4556af          
+    background-color:#ecaffc;
+    color:#4556af              
 }
 /*etiqueta nombre*/
 #nombre{
     font-weight:bold;
-    text-align:center;
+    text-align:center; 
 }
 
 /*etiqueta nombre2*/
