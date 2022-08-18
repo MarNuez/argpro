@@ -2,13 +2,15 @@
     display:flex;
     justify-content:space-between;
     align-items: center;
+    padding: 30px;
 }
 #logoAP{
-    width: 220px;
+    width: 170px;
     margin-top: 15px;
     margin-left: 15px;
 }
 img{
-    width: 50px;
-    margin: 0 10px;
+    width: 30px;
+    margin: 0 5px;
+    margin-bottom: 5px;
 }
