@@ -1,5 +1,6 @@
 .row{
-    padding:50px;
+    padding: 10px;
+    text-align:center;
 }
 div{
     background-color:#ecaffc;
@@ -7,12 +8,31 @@ div{
 }
 /*etiqueta nombre*/
 #nombre{
-    font-weight:bold;
-    text-align:center; 
+    font-weight:bold; 
 }
 
 /*etiqueta nombre2*/
 #nombre2{
     font-weight:bold;
-    text-align:center;
+}
+
+/*estilo fotoperfil*/
+#fotoperfil{
+    border-radius:50%;
+}
+@media (min-width:991px){
+    #fotoperfil{
+        position: absolute;
+        width:15%;
+        right:25%;
+        top:65%;
+    }
+}
+@media (max-width:992px){
+    #fotoperfil{
+        position: absolute;
+        width:15%;
+        right:18%;
+        top:70%;
+    }
 }
