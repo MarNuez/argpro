@@ -23,9 +23,9 @@ public class JwtProvider {
 
     private final static Logger logger = LoggerFactory.getLogger(JwtProvider.class);
 
-    @Value("$(jwt.secret)")
+    @Value("${jwt.secre}")
     private String secret;
-    @Value("$(jwt.secret)")
+    @Value("${jwt.secret}")
     private int expiration;
 
     public String generateToken(Authentication authentication) {

@@ -5,7 +5,7 @@
 package com.marielanuez.Security.Service;
 
 import com.marielanuez.Security.Entity.Usuario;
-import com.marielanuez.Security.Repository.IUsuarioRepository;
+import com.marielanuez.Security.Repository.iUsuarioRepository;
 import java.util.Optional;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 public class UsuarioService {
 
     @Autowired
-    IUsuarioRepository iusuarioRepository;
+    iUsuarioRepository iusuarioRepository;
 
     public Optional<Usuario> getByNombreUsuario(String nombreUsuario) {
         return iusuarioRepository.findByNombreUsuario(nombreUsuario);

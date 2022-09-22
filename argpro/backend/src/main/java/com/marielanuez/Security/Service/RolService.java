@@ -6,7 +6,7 @@ package com.marielanuez.Security.Service;
 
 import com.marielanuez.Security.Entity.Rol;
 import com.marielanuez.Security.Enums.RolNombre;
-import com.marielanuez.Security.Repository.IRolRepository;
+import com.marielanuez.Security.Repository.iRolRepository;
 import java.util.Optional;
 import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 @Transactional
 public class RolService {
     @Autowired
-    IRolRepository irolRepository;
+    iRolRepository irolRepository;
     
     public Optional<Rol> getByRolNombre (RolNombre rolNombre){
             return irolRepository.findByRolNombre (rolNombre);
